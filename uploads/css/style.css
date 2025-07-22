@@ -925,7 +925,6 @@ h6 {
 }
 
 /* --------- 6.3 Testimonials ---------- */
-
 .testimonial {
     padding: 15px;
 }
@@ -2327,6 +2326,12 @@ blockquote {
 
 }
 
+#testimonials .row {
+    text-align: center;
+}
 
-
-
+#testimonials .testimonial {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
